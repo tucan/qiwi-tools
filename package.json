@@ -1,0 +1,25 @@
+{
+	"name": "qiwi-console",
+	"version": "0.1.0",
+	"description": "QIWI interactive console",
+	"keywords": ["qiwi", "money", "payment"],
+	"main": "./lib/index",
+	"licence": "MIT",
+	"author": {
+		"name": "Vladimir Andreev",
+		"email": "volodya@netfolder.ru"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tucan/qiwi-console.git"
+	},
+	"dependencies": {
+		"qiwi": "0.x"
+	},
+	"devDependencies": {
+		"coffee-script": "1.x"
+	},
+	"scripts": {
+		"prepublish": "./node_modules/.bin/coffee -c -b -o lib src"
+	}
+}
