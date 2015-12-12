@@ -1,17 +1,17 @@
 {
-	"name": "qiwi-console",
+	"name": "qiwi-tools",
 	"version": "0.1.0",
-	"description": "QIWI interactive console",
+	"description": "Tools for QIWI payment system",
 	"keywords": ["qiwi", "money", "payment"],
 	"main": "./lib/index",
-	"licence": "MIT",
+	"license": "MIT",
 	"author": {
 		"name": "Vladimir Andreev",
 		"email": "volodya@netfolder.ru"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tucan/qiwi-console.git"
+		"url": "https://github.com/tucan/qiwi-tools.git"
 	},
 	"dependencies": {
 		"qiwi": "0.x"

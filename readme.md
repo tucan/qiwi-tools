@@ -1,7 +1,7 @@
-# QIWI Console
+# QIWI Tools
 
 ## Installation
 
 ```
-$ npm install -g qiwi-console
+$ npm install -g qiwi-tools
 ```
